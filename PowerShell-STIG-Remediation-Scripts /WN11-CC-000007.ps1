@@ -21,9 +21,8 @@ This PowerShell script ensures the built-in or attached camera is disabled by se
     PowerShell Ver. : 
 
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000007).ps1 
+PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000007).ps1 
+
 #>
 
 $RegistryPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\webcam"
