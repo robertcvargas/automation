@@ -21,9 +21,8 @@ This PowerShell script ensures that insecure guest logons to an SMB server are d
     PowerShell Ver. : 
 
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000040).ps1 
+ PS C:\> .\__remediation_template(STIG-ID-WN11-CC-000040).ps1 
+
 #>
 
 $RegistryPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\LanmanWorkstation"
