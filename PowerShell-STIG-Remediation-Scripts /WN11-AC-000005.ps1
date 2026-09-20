@@ -21,9 +21,8 @@ This PowerShell script ensures the Windows account lockout duration is configure
     PowerShell Ver. : 
 
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
+ PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
+
 #>
 
 $InfPath = "$env:TEMP\WN11-AC-000005.inf"
